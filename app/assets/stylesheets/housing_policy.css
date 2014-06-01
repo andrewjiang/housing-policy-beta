@@ -1,0 +1,19 @@
+.data-sf-nav{
+	background-color: #326d89;
+}
+
+.nav-logo{
+	height: 40px;
+	padding: 0;
+	margin: 5px 0 5px;
+}
+
+.id-image{
+	padding: 0;
+	height: 80px;
+	display: inline;
+}
+
+.id-image.id-md{
+	height: 60px;
+}
