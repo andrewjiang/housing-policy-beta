@@ -1,48 +1,104 @@
+<div class="container-fluid housing" style="padding: 0; margin: 50px 0 30px;">
+    <div style="height: 100%; background-image: url('http://civinomics.files.wordpress.com/2014/01/san-francisco-fly-to-barcelona.jpg'); background-size: cover; position: relative">
+      <div style="position: absolute; top:0; left:0; height: 100%; width: 100%; background-color: rgba(0,0,0,.3); z-index: 1;"></div>
+      <div style="color:#fff; padding: 50px 80px; z-index: 2; position: absolute;">
+        <h1 style="text-transform: uppercase;">San Francisco Housing Policy Brief</h1>
+        <div class="row">
+          <div class="col-sm-6"><p class="lead">Key data and overview of current policies to inform the discussion about housing availability in SF.</p>
+          <p class="lead"><strong>A project of #DataSF</strong></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <!--
+      <div class="page-header">
+        <h1 style="color:#fff">Ownership Assistance</h1>
+      </div>
+    -->
+    <div class="row">
+      <h2 class="text-center">Data Overview</h2>
+      <div class="col-sm-12 text-center">
+        <div style='margin: 30px auto;' id='highlight'>
+          <iframe height=520 width=810 src="//docs.google.com/spreadsheets/d/1SYYqoBNysyyUc2M6XCeY0vuh_ot-hYhqsMAN1DdudBE/gviz/chartiframe?oid=2030283485" seamless frameborder=0 scrolling=no></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 overlay">
+        <div class="descriptive-overlay">Rent Controlled Units</div>
+      </div>
+      <div class="col-sm-4 overlay">
+        <div class="descriptive-overlay">Inclusionary Units</div>
+      </div>
+      <div class="col-sm-4 overlay">
+        <div class="descriptive-overlay">Population paying over 30% income on rent</div>
+        <iframe width="370" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col0%3E%3E1+from+1K-WfssXqFjpeYkBHq4gnu3ZJzhurV2Um4d5XlQTQ+where+col3%3E%3E0+%3C%3D+10000+and+col3%3E%3E0+%3E%3D+1&amp;viz=MAP&amp;h=false&amp;lat=37.76461643113472&amp;lng=-122.40130256103521&amp;t=1&amp;z=12&amp;l=col0%3E%3E1&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>
+      </div>
+    </div>
+    <div id="policies"></div>
+    <hr>
+    <div class="row">
+      <h2 class="text-center">Policies</h2>
+      <p class="lead text-center">Current policies related to affordable housing for the City of San Francisco</p>
+      <div class="col-sm-6">
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/ownership_assistance_id.png"></td>
+            <td><h4><a href="policy.html">Ownership Assistance</a></h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+          </tr>
+        </table>
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/policy_id_4.png"></td>
+            <td><h4>First Time Home Buyers</h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+          </tr>
+        </table>
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/policy_id_5.png"></td>
+            <td><h4>Rental Subsidies and Services</h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+          </tr>
+        </table>
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/policy_id_6.png"></td>
+            <td><h4>Public Housing</h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+          </tr>
+        </table>
+      </div>
 
-		<div class="container-fluid housing" style="padding: 0; margin: 50px 0 30px;">
-			<div style="height: 100%; background-image: url('http://civinomics.files.wordpress.com/2014/01/san-francisco-fly-to-barcelona.jpg'); background-size: cover; position: relative">
-				<div style="position: absolute; top:0; left:0; height: 100%; width: 100%; background-color: rgba(0,0,0,.3); z-index: 1;"></div>
-				<div style="color:#fff; padding: 50px 80px; z-index: 2; position: absolute;">
-					<h1 style="text-transform: uppercase;">San Francisco Housing Policy Brief</h1>
-					<div class="row">
-						<div class="col-sm-6"><p class="lead">Key data and overview of current policies to inform the discussion about housing availability in SF.</p>
-						<p class="lead"><strong>A project of #DataSF</strong></p></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<!--
-				<div class="page-header">
-					<h1 style="color:#fff">Ownership Assistance</h1>
-				</div>
-			-->
-			<div class="row">
-				<h2>Overview</h2>
-			</div>
-			<hr>
-			<div class="row">
-				<h2>Policies</h2>
-				<p class="lead">Current policies related to affordable housing for the City of San Francisco</p>
-				<div class="col-sm-6">
-					<div>
-						<h4><img class="thumbnail id-image id-md" src="ownership_assistance_id.png"> Ownership Assistance</h4>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<table>
-						<tr>
-							<td><img class="thumbnail id-image id-md" src="ownership_assistance_id.png"></td>
-							<td><h4> Rent Control</h4><p>Any building constructed before 1979 is eligible for rent control. Well geeze, aint that great.</p></td>
-						</tr>
-					</table>
-				</div>
+
+      <div class="col-sm-6">
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/policy_id_1.png"></td>
+            <td><h4> Rent Control</h4><p>Any building constructed before 1979 is eligible for rent control. Well geeze, aint that great.</p></td>
+          </tr>
+        </table>
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/policy_id_2.png"></td>
+            <td><h4>Inclusionary Housing</h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+          </tr>
+        </table>
+        <table class="policy-table">
+          <tr>
+            <td><img class="thumbnail id-image id-md" src="assets/policy_id_3.png"></td>
+            <td><h4>Cost Restricted Housing</h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+          </tr>
+        </table>
+
+      </div>
 
 
-			</div>
-			<hr>
-			<div class="row">
-				<h2>Organizations</h2>
-			</div>
+    </div>
+    <hr>
+    <div class="row">
+      <h2 class="text-center">Organizations</h2>
+      <div class="col-sm-10 col-sm-offset-1">
+        <p class="lead text-center">There is a constellation of public agencies and non-profit organziations that work with housing. Some of them are great, others are even better.</p>
+      </div>
+    </div>
 
-		</div>
+  </div>

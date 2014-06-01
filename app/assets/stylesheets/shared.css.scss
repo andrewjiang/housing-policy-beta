@@ -1,0 +1,26 @@
+.container {
+  margin: 30px auto;
+}
+
+h1 {
+  img {
+    margin-right: 20px;
+  }
+}
+
+.overlay {
+  text-align: center;
+  height: 300px;
+}
+
+.descriptive-overlay {
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  width: 95%;
+  height: 300px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 120px 0px;
+  box-sizing: border-box;
+}
