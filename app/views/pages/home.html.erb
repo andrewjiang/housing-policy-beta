@@ -17,23 +17,33 @@
       </div>
     -->
     <div class="row">
-      <h2 class="text-center">Data Overview</h2>
+      <h2 class="text-center focus-title">Data Overview</h2>
       <div class="col-sm-12 text-center">
-        <div style='margin: 30px auto;' id='highlight'>
+        <div style='margin: 30px auto; width: 810px' class='highlight' data-focus-id='1'>
           <iframe height=520 width=810 src="//docs.google.com/spreadsheets/d/1SYYqoBNysyyUc2M6XCeY0vuh_ot-hYhqsMAN1DdudBE/gviz/chartiframe?oid=2030283485" seamless frameborder=0 scrolling=no></iframe>
         </div>
+        <div style='margin: 30px auto; width: 810px' class='highlight hidden' data-focus-id='2'>
+          <iframe width="810" height="520" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col5%3E%3E0+from+1dgWZK1npMDGFdKre9wQu0gMbSWwU5zHRB6WRhyWA+where+col8%3E%3E0+in+(&#39;ON&#39;%2C+&#39;LAND+DED%2FON&#39;%2C+&#39;ON%2FON+(FOR+OFF-SITE)&#39;%2C+&#39;LAND+DED&#39;%2C+&#39;OFF-SITE&#39;%2C+&#39;OFF%2FFEE&#39;%2C+&#39;ON+(FOR+OFF-SITE)&#39;%2C+&#39;ON%2FFEE&#39;%2C+&#39;ON%2FFEE%2FOFF&#39;%2C+&#39;UNDECLARED&#39;)&amp;viz=MAP&amp;h=false&amp;lat=37.7528468769749&amp;lng=-122.40253744555667&amp;t=1&amp;z=12&amp;l=col5%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe>
+          <div style='position: absolute; z-index: 30; bottom: 70px; right: 200px;'>
+            <img src='assets/legend.png' style='height: 131px; width:178px;'></div>
+          </div>
+        </div>
+        <div style='margin: 30px auto; width: 810px' class='highlight hidden' data-focus-id='3'>
+          <iframe width="810" height="520" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col0%3E%3E1+from+1K-WfssXqFjpeYkBHq4gnu3ZJzhurV2Um4d5XlQTQ+where+col3%3E%3E0+%3C%3D+10000+and+col3%3E%3E0+%3E%3D+1&amp;viz=MAP&amp;h=false&amp;lat=37.77058716814742&amp;lng=-122.40713904785162&amp;t=1&amp;z=12&amp;l=col0%3E%3E1&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>
+        </div>
       </div>
-    </div>
     <div class="row">
       <div class="col-sm-4 overlay">
-        <div class="descriptive-overlay">Rent Controlled Units</div>
+        <div class="descriptive-overlay" data-focus-id='1'>Population and Housing Units through the Decades</div>
+        <iframe height=200 width=370 src="//docs.google.com/spreadsheets/d/1SYYqoBNysyyUc2M6XCeY0vuh_ot-hYhqsMAN1DdudBE/gviz/chartiframe?oid=2030283485" seamless frameborder=0 scrolling=no></iframe>
       </div>
       <div class="col-sm-4 overlay">
-        <div class="descriptive-overlay">Inclusionary Units</div>
+        <div class="descriptive-overlay" data-focus-id='2'>Inclusionary Units</div>
+        <iframe width="370" height="200" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col5%3E%3E0+from+1dgWZK1npMDGFdKre9wQu0gMbSWwU5zHRB6WRhyWA+where+col8%3E%3E0+in+(&#39;ON&#39;%2C+&#39;LAND+DED%2FON&#39;%2C+&#39;ON%2FON+(FOR+OFF-SITE)&#39;%2C+&#39;LAND+DED&#39;%2C+&#39;OFF-SITE&#39;%2C+&#39;OFF%2FFEE&#39;%2C+&#39;ON+(FOR+OFF-SITE)&#39;%2C+&#39;ON%2FFEE&#39;%2C+&#39;ON%2FFEE%2FOFF&#39;%2C+&#39;UNDECLARED&#39;)&amp;viz=MAP&amp;h=false&amp;lat=37.7528468769749&amp;lng=-122.40253744555667&amp;t=1&amp;z=12&amp;l=col5%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe>
       </div>
       <div class="col-sm-4 overlay">
-        <div class="descriptive-overlay">Population paying over 30% income on rent</div>
-        <iframe width="370" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col0%3E%3E1+from+1K-WfssXqFjpeYkBHq4gnu3ZJzhurV2Um4d5XlQTQ+where+col3%3E%3E0+%3C%3D+10000+and+col3%3E%3E0+%3E%3D+1&amp;viz=MAP&amp;h=false&amp;lat=37.76461643113472&amp;lng=-122.40130256103521&amp;t=1&amp;z=12&amp;l=col0%3E%3E1&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>
+        <div class="descriptive-overlay" data-focus-id='3'>Population paying over 30% income on rent</div>
+        <iframe height=200 width=370 scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col0%3E%3E1+from+1K-WfssXqFjpeYkBHq4gnu3ZJzhurV2Um4d5XlQTQ+where+col3%3E%3E0+%3C%3D+10000+and+col3%3E%3E0+%3E%3D+1&amp;viz=MAP&amp;h=false&amp;lat=37.76461643113472&amp;lng=-122.40130256103521&amp;t=1&amp;z=12&amp;l=col0%3E%3E1&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>
       </div>
     </div>
     <div id="policies"></div>
@@ -45,7 +55,7 @@
         <table class="policy-table">
           <tr>
             <td><img class="thumbnail id-image id-md" src="assets/ownership_assistance_id.png"></td>
-            <td><h4><a href="policy.html">Ownership Assistance</a></h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+            <td><h4><a href="policy.html">Inclusionary Housing</a></h4><p>Inclusionary housing programs require new private housing developments to include units that are affordable to low or middle income households or pay a fee.</p></td>
           </tr>
         </table>
         <table class="policy-table">
@@ -79,7 +89,7 @@
         <table class="policy-table">
           <tr>
             <td><img class="thumbnail id-image id-md" src="assets/policy_id_2.png"></td>
-            <td><h4>Inclusionary Housing</h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
+            <td><h4><a href="policy.html">Ownership Assistance</a></h4><p>Cupcakes and dandelions - if you drink chamomile tea in the sunshine you are likely to want to take a nap.</p></td>
           </tr>
         </table>
         <table class="policy-table">

@@ -1,29 +1,24 @@
 .housing {
   height: 600px;
 }
-
 .data-sf-nav{
-	background-color: #326d89;
+  background-color: #326d89;
 }
 
 .nav-logo{
-	height: 40px;
-	padding: 0;
-	margin: 5px 0 5px;
+  height: 40px;
+  padding: 0;
+  margin: 5px 0 5px;
 }
 
 .id-image{
-	padding: 0;
-  margin: 0;
-	height: 80px;
-  width: 80px;
-	display: inline-block;
-  background: image-url('housing.png');
-  background-size: cover;
+  padding: 0;
+  height: 150px;
+  display: inline;
 }
 
 .id-image.id-md{
-	height: 60px;
+  height: 100px;
 }
 
 .policy-table{
@@ -32,12 +27,22 @@
 
 .policy-table tr td{
   padding-right: 10px;
+  vertical-align: top;
 }
 .policy-table tr td h4{
   padding-top: 0;
   margin-top: 0;
 }
 
-.nav.nav-pills.nav-stacked > li > a {
+.nav.nav-pills.nav-stacked>li>a {
   color: #777;
+  font-size: 1.1em;
+}
+
+.footer{
+  margin: 50px 0;
+}
+
+.top-space{
+  margin-top: 30px;
 }
