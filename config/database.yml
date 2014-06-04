@@ -5,9 +5,10 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
+  encoding: unicode
+  database: housing_project_development
   pool: 5
-  timeout: 5000
 
 development:
   <<: *default
@@ -18,8 +19,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: housing_project_test
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: housing_project_production
